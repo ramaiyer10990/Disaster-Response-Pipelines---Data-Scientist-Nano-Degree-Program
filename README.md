@@ -124,19 +124,17 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 ## 4. Screen capture
 
-**_Information regarding training data set can be seen on main page of web app_**
-
 <img src="images/Image 6-17-20 at 6.29 PM.png">
 
 <img src="images/Image 6-17-20 at 6.29-1 PM.png">
 
 <img src="images/Image 6-17-20 at 6.30 PM.png">
 
-**_Below is an example of a message to test ML model performance_**
+**_ Message provided as input to evaluate ML model performance_**
 
 <img src="images/Image 6-17-20 at 6.33 PM.png">
 
-**_Clicking Classify Message, will highlight the relevant text categories_**
+**_Clicking Classify Message, will highlight the relevant message categories_**
 
 <img src="images/Image 6-17-20 at 6.31 PM.png">
 
