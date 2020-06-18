@@ -130,7 +130,7 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 <img src="images/Image 6-17-20 at 6.30 PM.png">
 
-**_ Message provided as input to evaluate ML model performance_**
+**_Message provided as input to evaluate ML model performance_**
 
 <img src="images/Image 6-17-20 at 6.33 PM.png">
 
