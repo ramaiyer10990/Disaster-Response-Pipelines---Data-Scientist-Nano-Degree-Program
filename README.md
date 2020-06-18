@@ -159,10 +159,10 @@ There are three main folders:
 - DisasterResponse.db: SQLite database containing processed messages and categories data
 2. models
 - train_classifier.py: machine learning pipeline scripts to train, and save a model
-- classifier.pkl: saved model in pkl format
+- classifier.pkl: saved model file in .pkl(pickle) format
 3. app
-- run.py: Python script to integrate all above files and to start the web application
-- templates contains html file for the web applicatin
+- run.py: Python script to integrate all the above files and plot graphs for producing the front end of the web application
+- templates contains html file for the web application
 
 <a id='credits'></a>
 
