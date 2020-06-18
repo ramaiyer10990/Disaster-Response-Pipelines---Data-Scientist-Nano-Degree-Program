@@ -28,15 +28,15 @@
 
 This project is part of the Data Scientist Nanodegree Program by Udacity Nanodegree program that uses a <a href="https://www.figure-eight.com/" target="_blank">Figure Eight</a> dataset. The initial dataset contains pre-labeled real messages from real-life disaster events. The aim of the project is to apply skills to analyze disaster data from from Figure Eight dataset to build a model for an API that classifies disaster messages that have occured in response to real life events.
 
-'_data_' directory contains the Figure Eight data set which are real messages sent in respone to a disaster event that occured. I created a machine learning pipeline to categorize these events so that appropriate disaster relief agency is notified.
+'_data_' directory contains the Figure Eight data set which are real messages sent in response to a disaster event that occurred. I created a machine learning pipeline to categorize these events so that appropriate disaster relief agency is notified.
 
-This project includes a Flask web app where an essential worker can input a new message and get classifited text in the form of results in several categories. The web app also displays data visualizations.
+This project includes a Flask web app where an essential worker can input a new message and get classified messages in the form of results in several categories. The web app also displays data visualizations.
 
 The project is divided into the following sections:
 
-- Data Processing, using ETL Pipeline to extract data from the source, clean data and load it into a database
-- Machine Learning Pipeline(ML Pipeline) for training a model to classify messages to categories
-- A Flask Web App to show model results intuitively in real-time
+- Data Processing, using ETL Pipeline to extract data from the source, clean data and load it into a database.
+- Machine Learning Pipeline(ML Pipeline) for training a model to classify messages to categories.
+- A Flask Web App to show model results intuitively in real-time.
 
 
 <a id='components'></a>
@@ -62,11 +62,11 @@ File _data/process_data.py_:
 File _models/train_classifier.py_:
 
 - Loads data from SQLite database i.e.DisasterResponse.db
-- Creates training and test datasets
-- Builds and Trains on a text data processing and machine learning pipeline (Decision Tree classifier)
-- Uses GridSearchCV to optimize parameters
-- Score on test dataset
-- Exports the cleaned data on a final model as a pickle file
+- Creates training and test datasets.
+- Builds and Trains on a text data processing and machine learning pipeline. (Decision Tree classifier)
+- Uses GridSearchCV to optimize parameters.
+- Score on test dataset.
+- Exports the cleaned data on a final model as a pickle file.
 
 <a id='flask'></a>
 
@@ -83,7 +83,7 @@ Run `python run.py` from app directory to start the web app where users can ente
 
 ## 3. Running
 
-There are three steps to get up and runnning with the web app if you want to start from ETL process.
+There are three steps to run the Flask Web app if you are initiating the ETL process.
 
 <a id='cleaning'></a>
 
@@ -155,16 +155,16 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 There are three main folders:
 1. data
-- disaster_categories.csv: dataset contains categories
-- disaster_messages.csv: dataset contains messages
-- process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database
-- DisasterResponse.db: SQLite database containing processed messages and categories data
+- disaster_categories.csv: dataset contains categories.
+- disaster_messages.csv: dataset contains messages.
+- process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database.
+- DisasterResponse.db: SQLite database containing processed disaster repsonse messages and categories data.
 2. models
-- train_classifier.py: machine learning pipeline scripts to train, and save a model
+- train_classifier.py: machine learning pipeline scripts to train, and save a model.
 - classifier.pkl: saved the model as .pkl(pickle) file.
 3. app
 - run.py: Python script integrates all above files and runs the Flask web app.
-- templates that contain html file for the web application
+- templates that contain html file for the web application.
 
 <a id='credits'></a>
 
