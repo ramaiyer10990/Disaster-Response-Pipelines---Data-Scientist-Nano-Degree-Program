@@ -123,9 +123,9 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 **_Information regarding training data set can be seen on main page of web app_**
 
-![genre](Image 6-17-20 at 6.29 PM.PNG)
+![genre](images/Image 6-17-20 at 6.29 PM.PNG)
 
-![genre](Image 6-17-20 at 6.29-1 PM.PNG)
+![genre](images/Image 6-17-20 at 6.29-1 PM.PNG)
 
 **_Below is an example of a message to test ML model performance_**
 
@@ -134,7 +134,7 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 **_Clicking Classify Message, will highlight the relevant text categories_**
 
-![dist](Image 6-17-20 at 6.32 PM.png)
+![](Image 6-17-20 at 6.32 PM.png)
 ![dist](Image 6-17-20 at 6.33 PM.png)
 
 <a id='sw'></a>
