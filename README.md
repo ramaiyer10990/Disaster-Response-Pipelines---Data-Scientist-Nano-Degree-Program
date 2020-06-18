@@ -27,7 +27,11 @@
 
 ## 1. Project Overview
 
-This project is part of the Data Scientist Nanodegree Program by Udacity in collaboration with <a href="https://www.figure-eight.com/" target="_blank">Figure Eight</a>. The initial dataset contains pre-labeled real messages from real-life disaster events. The aim of the project is to apply skills to analyze disaster data from from Figure Eight dataset to build a model for an API that classifies disaster messages.
+This project is part of the Data Scientist Nanodegree Program by Udacity Nanodegree program that uses a <a href="https://www.figure-eight.com/" target="_blank">Figure Eight</a> dataset. The initial dataset contains pre-labeled real messages from real-life disaster events. The aim of the project is to apply skills to analyze disaster data from from Figure Eight dataset to build a model for an API that classifies disaster messages that have occured in response to real life events.
+
+'_data_' directory contains the Figure Eight data set which are real messages sent in respone to a disaster event that occured. I created a machine learning pipeline to categorize these events so that appropriate disaster relief agency is notified.
+
+This project includes a Flask web app where an essential worker can input a new message and get classifited text in the form of results in several categories. The web app also displays data visualizations.
 
 The project is divided into the following sections:
 
@@ -123,19 +127,21 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 **_Information regarding training data set can be seen on main page of web app_**
 
-![genre](Image 6-17-20 at 6.29 PM.PNG)
+<img src="images/Image 6-17-20 at 6.29 PM.png">
 
-![genre](Image 6-17-20 at 6.29-1 PM.PNG)
+<img src="images/Image 6-17-20 at 6.29-1 PM.png">
+
+<img src="images/Image 6-17-20 at 6.30 PM.png">
 
 **_Below is an example of a message to test ML model performance_**
 
-![dist](Image 6-17-20 at 6.30 PM.PNG)
-![dist](Image 6-17-20 at 6.31 PM.PNG)
+<img src="images/Image 6-17-20 at 6.33 PM.png">
 
 **_Clicking Classify Message, will highlight the relevant text categories_**
 
-![dist](Image 6-17-20 at 6.32 PM.png)
-![dist](Image 6-17-20 at 6.33 PM.png)
+<img src="images/Image 6-17-20 at 6.31 PM.png">
+
+<img src="images/Image 6-17-20 at 6.32 PM.png">
 
 <a id='sw'></a>
 
@@ -143,7 +149,7 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 - Python 3.7
 - Machine Learning Libraries: NumPy, Pandas, Sciki-Learn or sklearn, pickle
-- Natural Language Process Libraries: NLTK, re
+- Natural Language Process  libraries: NLTK, re
 - SQLlite Database Libraries: SQLalchemy
 - Web App and Data Visualization: Flask, Plotly,
 - python related: sys, warnings
@@ -158,14 +164,14 @@ There are three main folders:
 - DisasterResponse.db: SQLite database containing processed messages and categories data
 2. models
 - train_classifier.py: machine learning pipeline scripts to train, and save a model
-- classifier.pkl: saved model in pkl format
+- classifier.pkl: saved the model as .pkl(pickle) file.
 3. app
-- run.py: Python script to integrate all above files and to start the web application
-- templates contains html file for the web applicatin
+- run.py: Python script integrates all above files and runs the Flask web app.
+- templates that contain html file for the web application
 
 <a id='credits'></a>
 
 ## 6. Credits and Acknowledgements
 
-* [Figure Eight](https://www.figure-eight.com/) for providing dataset used in the project
-* [Udacity](https://www.udacity.com/) for a curating a program with intensive projects.
+* [Figure Eight](https://www.figure-eight.com/) for providing the dataset implemented in the project.
+* [Udacity](https://www.udacity.com/) for a highly intense project that honed my skills.
