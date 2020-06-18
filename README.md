@@ -153,20 +153,20 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 There are three main folders:
 1. data
-- disaster_categories.csv: dataset contains categories
-- disaster_messages.csv: dataset contains messages
-- process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database
-- DisasterResponse.db: SQLite database containing processed messages and categories data
+- disaster_categories.csv: dataset contains categories.
+- disaster_messages.csv: dataset contains messages.
+- process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database.
+- DisasterResponse.db: SQLite database containing processed messages and categories data.
 2. models
-- train_classifier.py: machine learning pipeline scripts to train, and save a model
-- classifier.pkl: saved model file in .pkl(pickle) format
+- train_classifier.py: machine learning pipeline scripts to train, and save a model.
+- classifier.pkl: saved model file in .pkl(pickle) format.
 3. app
-- run.py: Python script to integrate all the above files and plot graphs for producing the front end of the web application
-- templates contains html file for the web application
+- run.py: Python script to integrate all the above files and plot graphs for producing the front end of the web application.
+- templates contains html file for the web application.
 
 <a id='credits'></a>
 
 ## 6. Credits and Acknowledgements
 
-* [Figure Eight](https://www.figure-eight.com/) for providing dataset used in the project
+* [Figure Eight](https://www.figure-eight.com/) for providing dataset used in the project.
 * [Udacity](https://www.udacity.com/) for a curating a program with intensive projects.
