@@ -1,4 +1,5 @@
 # Disaster-Response-Pipelines---Data-Scientist-Nano-Degree-Program
+# Disaster Response Pipeline Project
 
 # Data Scientist Nanodegree
 
@@ -27,10 +28,6 @@
 ## 1. Project Overview
 
 This project is part of the Data Scientist Nanodegree Program by Udacity in collaboration with <a href="https://www.figure-eight.com/" target="_blank">Figure Eight</a>. The initial dataset contains pre-labeled real messages from real-life disaster events. The aim of the project is to apply skills to analyze disaster data from from Figure Eight dataset to build a model for an API that classifies disaster messages.
-
-The '_data_' directory contains the Figure Eight data set which are real messages that were sent in response to a disaster event. I have created a machine learning pipeline to categorize these set of events to the appropriate disaster relief agency for to be reached out for help.
-
-This project will include a Flask web app where an essential worker can input a new message and get classified text in the form of results in several categories. The web app will also depict data visualizations.
 
 The project is divided into the following sections:
 
@@ -63,7 +60,7 @@ File _models/train_classifier.py_:
 
 - Loads data from SQLite database i.e.DisasterResponse.db
 - Creates training and test datasets
-- Builds and Trains on a text data processing and machine learning pipeline
+- Builds and Trains on a text data processing and machine learning pipeline (Decision Tree classifier)
 - Uses GridSearchCV to optimize parameters
 - Score on test dataset
 - Exports the cleaned data on a final model as a pickle file
@@ -122,25 +119,23 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 <a id='screenshots'></a>
 
-## 4. Screenshots
+## 4. Screen capture
 
 **_Information regarding training data set can be seen on main page of web app_**
 
-<img src="images/Image 6-17-20 at 6.29 PM.png">
+![genre](Image 6-17-20 at 6.29 PM.PNG)
 
-<img src="images/Image 6-17-20 at 6.29-1 PM.png">
-
-<img src="images/Image 6-17-20 at 6.30 PM.png">
+![genre](Image 6-17-20 at 6.29-1 PM.PNG)
 
 **_Below is an example of a message to test ML model performance_**
 
-<img src="images/Image 6-17-20 at 6.33 PM.png">
+![dist](Image 6-17-20 at 6.30 PM.PNG)
+![dist](Image 6-17-20 at 6.31 PM.PNG)
 
 **_Clicking Classify Message, will highlight the relevant text categories_**
 
-<img src="images/Image 6-17-20 at 6.31 PM.png">
-
-<img src="images/Image 6-17-20 at 6.32 PM.png">
+![dist](Image 6-17-20 at 6.32 PM.png)
+![dist](Image 6-17-20 at 6.33 PM.png)
 
 <a id='sw'></a>
 
@@ -157,20 +152,20 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 There are three main folders:
 1. data
-- disaster_categories.csv: dataset contains categories.
-- disaster_messages.csv: dataset contains messages.
-- process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database.
-- DisasterResponse.db: SQLite database containing processed messages and categories data.
+- disaster_categories.csv: dataset contains categories
+- disaster_messages.csv: dataset contains messages
+- process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database
+- DisasterResponse.db: SQLite database containing processed messages and categories data
 2. models
-- train_classifier.py: machine learning pipeline scripts to train, and save a model.
-- classifier.pkl: saved model file in .pkl(pickle) format.
+- train_classifier.py: machine learning pipeline scripts to train, and save a model
+- classifier.pkl: saved model in pkl format
 3. app
-- run.py: Python script to integrate all the above files and plot graphs for producing the front end of the web application.
-- templates contains html file for the web application.
+- run.py: Python script to integrate all above files and to start the web application
+- templates contains html file for the web applicatin
 
 <a id='credits'></a>
 
 ## 6. Credits and Acknowledgements
 
-* [Figure Eight](https://www.figure-eight.com/) for providing a dataset for the project.
-* [Udacity](https://www.udacity.com/) for an intense project in a program that assisted me in really honing my skills.
+* [Figure Eight](https://www.figure-eight.com/) for providing dataset used in the project
+* [Udacity](https://www.udacity.com/) for a curating a program with intensive projects.
