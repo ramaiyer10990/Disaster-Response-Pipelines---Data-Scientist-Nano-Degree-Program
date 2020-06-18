@@ -127,17 +127,17 @@ This will start the web app and will direct you to http://0.0.0.0:3001/ where yo
 
 <img src="images/Image 6-17-20 at 6.29-1 PM.png">
 
-**_Below is an example of a message to test ML model performance_**
-
 <img src="images/Image 6-17-20 at 6.30 PM.png">
 
-<img src="images/Image 6-17-20 at 6.31 PM.png">
+**_Below is an example of a message to test ML model performance_**
+
+<img src="images/Image 6-17-20 at 6.33 PM.png">
 
 **_Clicking Classify Message, will highlight the relevant text categories_**
 
-<img src="images/Image 6-17-20 at 6.32 PM.png">
+<img src="images/Image 6-17-20 at 6.31 PM.png">
 
-<img src="images/Image 6-17-20 at 6.33 PM.png">
+<img src="images/Image 6-17-20 at 6.32 PM.png">
 
 <a id='sw'></a>
 
