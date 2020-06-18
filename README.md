@@ -172,5 +172,5 @@ There are three main folders:
 
 ## 6. Credits and Acknowledgements
 
-* [Figure Eight](https://www.figure-eight.com/) for providing dataset used in the project.
-* [Udacity](https://www.udacity.com/) for a curating a program with intensive projects.
+* [Figure Eight](https://www.figure-eight.com/) for providing a dataset for the project.
+* [Udacity](https://www.udacity.com/) for an intense project in a program that assisted me in really honing my skills.
