@@ -30,7 +30,7 @@ This project is part of the Data Scientist Nanodegree Program by Udacity in coll
 
 The '_data_' directory contains the Figure Eight data set which are real messages that were sent in response to a disaster event. I have created a machine learning pipeline to categorize these set of events to the appropriate disaster relief agency for to be reached out for help.
 
-This project will include a Flask web app where an essential worker can input a new message and get classification text in the form of results in several categories. The web app will also depict data visualizations.
+This project will include a Flask web app where an essential worker can input a new message and get classified text in the form of results in several categories. The web app will also depict data visualizations.
 
 The project is divided into the following sections:
 
